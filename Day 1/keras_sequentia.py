@@ -24,4 +24,4 @@ model.compile('adam', loss='mse')
 
 model.fit(x,y,epochs=40,batch_size=16)
 
-print(model.predict(np.array([[3,1,1,2,3]])))
+print(model.predict(np.array([[3,1,1,2,3.3]])))
